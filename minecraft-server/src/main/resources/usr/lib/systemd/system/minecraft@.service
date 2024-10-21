@@ -1,0 +1,18 @@
+[Unit] 
+Description=Minecraft server - java edition
+After=syslog.target 
+
+[Service] 
+User=minecraft
+WorkingDirectory=/var/lib/minecraft/%i
+EnvironmentFile=/etc/sysconfig/minecraft-%i
+ExecStart=/etc/alternatives/jre_21/bin/java $JAVA_OPTS -jar "/usr/share/java/minecraft/server.jar" $MINECRAFT_OPTS
+Restart=on-failure
+RestartSec=10s
+
+StandardInput=null
+StandardOutput=journal
+
+[Install] 
+WantedBy=multi-user.target 
+
