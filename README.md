@@ -12,6 +12,6 @@ mvn install:install-file -Dfile=server.jar -DgroupId=com.mojang -DartifactId=min
 To produce the RPM, run:
 
 ```
-mmvn install
+mvn install
 ```
 
