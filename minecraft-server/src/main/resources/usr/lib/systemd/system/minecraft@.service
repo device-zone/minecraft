@@ -1,6 +1,7 @@
 [Unit] 
 Description=Minecraft server - java edition
-After=syslog.target 
+Wants=network-online.target
+After=network-online.target
 
 [Service] 
 User=minecraft
