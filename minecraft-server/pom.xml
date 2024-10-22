@@ -4,7 +4,7 @@
   <parent>
     <artifactId>minecraft</artifactId>
     <groupId>zone.device.platform</groupId>
-    <version>1.21.1.0-SNAPSHOT</version>
+    <version>1.21.2.0-SNAPSHOT</version>
   </parent>
 
   <properties>
@@ -18,7 +18,7 @@
 
   <artifactId>minecraft-server</artifactId>
   <groupId>zone.device.platform</groupId>
-  <version>1.21.1.0-SNAPSHOT</version>
+  <version>1.21.2.0-SNAPSHOT</version>
   <packaging>rpm</packaging>
   <name>minecraft2 server standard for el9</name>
   <description>Packaging for the minecraft server for ${release.distribution}</description>
