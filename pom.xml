@@ -4,12 +4,12 @@
   <properties>
     <release.instance>device</release.instance>
     <release.suffix>device.zone</release.suffix>
-    <minecraft.version>1.21.2</minecraft.version>
+    <minecraft.version>1.21.4</minecraft.version>
   </properties>
 
   <artifactId>minecraft</artifactId>
   <groupId>zone.device.platform</groupId>
-  <version>1.21.2.0-SNAPSHOT</version>
+  <version>1.21.4.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>minecraft server package</name>
   <description>Packaging for the minecraft server</description>
